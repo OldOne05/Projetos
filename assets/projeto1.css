@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:"Noto Sans JP", sans-serif;
+}
+
+html{
+    background-color: red;
+}
+
+header{
+    background-image: url("./imagens/spiderman-red-burning-4k-vp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    font-size: 2.5vw;
+    padding: 1rem;
+    color: rgba(255, 0, 0, 0.844);
+
+}
+
+nav h2{
+    background-color: rgb(10, 0, 0);
+    color: rgba(255, 0, 0, 0.844);
+    padding: 1rem;
+    font-size: 2.5vw;
+    text-shadow: .1rem .1rem rgb(67, 0, 0);
+}
+
+section#status{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+section#status div#txt{
+    padding: 4rem;
+    text-align: center;
+    font-size: 1.5vw;
+}
+section#status div#txt h3{
+    padding: 1rem;
+}
+
+section#status div#foto img{
+    width: 100%;
+    border-radius: 3rem;
+    transform: scaleX(-1);
+}
+
+section#botao{
+    display: flex;
+    justify-content: center;
+}
+
+section#botao div button{
+border: 1px solid rgb(0, 0, 0);
+background-color: rgba(0, 0, 0, 0.885);
+color: rgb(221, 18, 18);
+padding: .5rem;
+font-size: 1vw;
+font-weight: 900;
+border-radius: .5rem;
+display: block;
+margin: auto;
+cursor: pointer;
+transition: .6s ease-out;
+}
+
+section#botao div button:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 1px #000000;
+}
